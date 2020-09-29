@@ -12,11 +12,11 @@ If you don't have it installed, please visit [https://www.ruby-lang.org/en/docum
 
 In order to run the program:
 	
+git clone git@github.com:phaltoe/ruby_app_test.git
+cd into /ruby_app/test
+gem install bundler
+bundle install
 
-    git clone git@github.com:phaltoe/ruby_app_test.git
-    cd into /ruby_app/test
-    gem install bundler
-    bundle install
 ##### To Run The Script
 ```ruby
 run
@@ -36,14 +36,14 @@ Following the instructions, I created this script following TDD principles and O
 
 `bad_ip_sample.log | bad_log_sample.log | log_sample.log`  were created to test different edge scenarios as specified below:
 
-**1. If no path is provided** - line will be skipped to the next
-**2. If no ip is provided** - line will be skipped to the next
-**3. If no path or ip is provided** - line will be skipped to the next
-**4. If path has forbidden path characters** - line will be skipped to the next
-**5. If ip is not a valid IP Address**  - line will be skipped to the next
-**6. If ip is not a valid IPv4 Address** - line will be skipped to the next
-**7. If no LogFile is provided** - an error will be raised
-**8. If LogFile has a bad path** - an error will be raised
+**1. If no path is provided** - line will be skipped to the next<br />
+**2. If no ip is provided** - line will be skipped to the next<br />
+**3. If no path or ip is provided** - line will be skipped to the next<br />
+**4. If path has forbidden path characters** - line will be skipped to the next<br />
+**5. If ip is not a valid IP Address**  - line will be skipped to the next<br />
+**6. If ip is not a valid IPv4 Address** - line will be skipped to the next<br />
+**7. If no LogFile is provided** - an error will be raised<br />
+**8. If LogFile has a bad path** - an error will be raised<br />
 
 Edge cases were considered during the parsing to make sure only well-formatted data inputs the script. Please notice that in the case of bad-formatted ip or path, no log is being generated. However, in a real case scenario this should be notifying the team through an email or other media.
 
