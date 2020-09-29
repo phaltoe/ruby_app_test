@@ -11,11 +11,13 @@ This program was written with:
 If you don't have it installed, please visit [https://www.ruby-lang.org/en/documentation/installation/](https://www.ruby-lang.org/en/documentation/installation/)and follow installation instructions.
 
 In order to run the program:
-	
+
+```
 git clone git@github.com:phaltoe/ruby_app_test.git
 cd into /ruby_app/test
 gem install bundler
 bundle install
+```
 
 ##### To Run The Script
 ```ruby
