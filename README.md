@@ -1,4 +1,4 @@
-# Command Line Cron Parser
+# Command Line Log Parser
 
 This is a command line program which accepts an Log File and a parses it outputting the most viewed paths and the number of unique views for each path.
 
