@@ -21,11 +21,11 @@ bundle install
 
 ##### To Run The Script
 ```ruby
-ruby  parser.rb  webserver.log
+$ruby parser.rb webserver.log
 ```
 ##### To Run The Tests
 ```ruby
-rspec
+$rspec
 ```
 
 
