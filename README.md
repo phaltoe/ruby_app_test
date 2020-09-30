@@ -14,7 +14,7 @@ In order to run the program:
 
 ```
 git clone git@github.com:phaltoe/ruby_app_test.git
-cd into /ruby_app/test
+cd into /ruby_app_test
 gem install bundler
 bundle install
 ```
